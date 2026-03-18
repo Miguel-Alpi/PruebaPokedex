@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokédex Web</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <div class="pokedex">
+
+        <div class="pokedex-left">
+            <div class="led led-azul"></div>
+            <div class="led led-rojo"></div>
+            <div class="led led-amarillo"></div>
+        </div>
+
+        <div class="pokedex-right">
+
+            <h1>Pokédex</h1>
+
+            <div class="pantalla">
+                <div id="resultado">
+                    <p>Busca un Pokémon...</p>
+                </div>
+            </div>
+
+            <div class="busqueda">
+                <input type="text" id="pokemonInput" placeholder="Nombre o ID">
+                <button id="btnBuscar">Buscar</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/api.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
